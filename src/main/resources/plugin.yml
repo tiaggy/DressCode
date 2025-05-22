@@ -1,0 +1,26 @@
+name: AppearancePlugin
+version: '${project.version}'
+main: org.midgard.appearanceplugin.AppearancePlugin
+api-version: '1.13'
+commands:
+  clothes:
+    usage: "/clothes"
+permissions:
+  appearanceplugin.command.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  appearanceplugin.command.menu:
+    description: Allows opening the clothes menu
+    default: true
+  appearanceplugin.command.skin:
+    description: Allows setting, resetting and updating the skin
+    default: true
+  appearanceplugin.command.skin.forceset:
+    description: Allows setting the skin of another player
+    default: op
+  appearanceplugin.allclothes:
+    description: Allows using all clothes without crafting
+    default: op
+  appearanceplugin.command.data.remove:
+    description: Allows removing the skin data
+    default: op
