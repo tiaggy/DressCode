@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!DOCTYPE xml>
+<project name="DressCode" default="Build">
+    <target name="Build">
+        <jar jarfile="C:/Users/alexe/Coding/testing 1.21.8/plugins/${ant.project.name}.jar" basedir="./target/classes/"
+             includes="**/*">
+        </jar>
+    </target>
+</project> 

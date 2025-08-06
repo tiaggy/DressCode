@@ -1,0 +1,26 @@
+name: DressCode
+version: '${project.version}'
+main: me.tiaggy.dresscode.DressCodePlugin
+api-version: '1.13'
+commands:
+  clothes:
+    usage: "/clothes"
+permissions:
+  dresscode.command.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  dresscode.command.menu:
+    description: Allows opening the clothes menu
+    default: true
+  dresscode.command.skin:
+    description: Allows setting, resetting and updating the skin
+    default: true
+  dresscode.command.skin.forceset:
+    description: Allows setting the skin of another player
+    default: op
+  dresscode.allclothes:
+    description: Allows using all clothes without crafting
+    default: op
+  dresscode.command.data.remove:
+    description: Allows removing the skin data
+    default: op
